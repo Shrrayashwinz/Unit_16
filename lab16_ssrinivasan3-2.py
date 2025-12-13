@@ -29,7 +29,7 @@ plt.plot(df['DATE'], df['OHUR'], color='red', linewidth=1.5)
 plt.title('Ohio Unemployment Rate by Month (1976–2022)')
 plt.xlabel('Date')
 plt.ylabel('Unemployment Rate (%)')
-plt.grid(True)
+plt.grid(True) 
 plt.tight_layout()
 plt.show()  
 
