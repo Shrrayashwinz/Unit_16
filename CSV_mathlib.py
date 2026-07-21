@@ -41,7 +41,7 @@ class Plotter:
         self.df = df
 
     def plot_unemployment(self) -> None:
-        plt.figure(figsize=(12, 6))
+        plt.figure(figsize=(14, 7))
         plt.plot(self.df['DATE'], self.df['OHUR'], color='red', linewidth=1.5)
         plt.title('Ohio Unemployment Rate by Month (1976–2022)')
         plt.xlabel('Date')
